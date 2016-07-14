@@ -2,10 +2,10 @@
   "name": "emm1",
   "version": "1.0.0",
   "description": "An EMM app",
-  "main": "./server/server.js",
+  "main": "./app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server/server.js"
+    "start": "node ./app.js"
   },
   "dependencies": {
     "body-parser": "^1.13.3",
