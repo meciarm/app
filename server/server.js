@@ -3,7 +3,7 @@ var path = require("path");
 var bodyParser = require("body-parser");
 var mongodb = require("mongodb");
 
-var config = require("./server/config.js");
+var config = require("./config.js");
 
 var app = express();
 app.use(express.static(__dirname + "/public"));
